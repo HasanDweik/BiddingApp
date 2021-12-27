@@ -1,0 +1,24 @@
+.main__container {
+	height: 100vh;
+	width: 100%;
+}
+.main__content {
+	display: flex;
+	flex: row;
+	justify-content: left;
+	height: 100%;
+	width: 100%;
+}
+._404 {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: rgb(29, 32, 51);
+}
+a {
+	color: white;
+}

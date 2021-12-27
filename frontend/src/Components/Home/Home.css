@@ -1,0 +1,63 @@
+.home__container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.home__main_content {
+	height: 700px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+}
+.home__main_content_upper {
+	display: flex;
+	flex-direction: row;
+}
+.home__main_content_lower {
+	display: flex;
+	flex-direction: row;
+}
+.home__shortcut {
+	background-color: rgb(38, 44, 56);
+	width: 47%;
+	height: 320px;
+	border: solid 1px rgb(85, 108, 149);
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.home__shortcut_title {
+	width: 100%;
+	margin-left: 10px;
+}
+.home__shortcut_title h1 {
+	color: rgb(61, 230, 235);
+}
+.home__shortcut_description {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 70px;
+	background-color: rgb(51, 56, 68);
+	word-wrap: break-word;
+}
+.home__shortcut_description label {
+	width: 80%;
+}
+.home__shortcut_logo_img {
+	height: 200px;
+}
+.home__shortcut_logo_img_store {
+	height: 120px;
+}
+.home__shortcut:hover {
+	border: 2px solid rgb(61, 230, 235);
+}

@@ -1,0 +1,114 @@
+.signup__container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(29, 32, 51);
+}
+.signup__main_div {
+	background-color: rgb(29, 32, 51);
+	height: 650px;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.signup__logo {
+	margin: 10px;
+}
+.signup__logo_img {
+	width: 350px;
+	height: 200px;
+}
+.signup__title h2 {
+	color: white;
+	margin: 20px;
+}
+.signup__credential_div {
+	width: 100%;
+}
+.signup__credential_div h5 {
+	color: white;
+	margin: 3px;
+	margin-right: 10px;
+}
+.signup__credential_div input {
+	width: 96%;
+	background-color: rgb(20, 23, 36);
+	margin: 3px;
+	height: 45px;
+	color: white;
+	font-size: 16px;
+	border: rgb(98, 98, 111) solid 1px;
+	border-radius: 7px;
+	padding-inline-start: 6px;
+}
+.signup__credential_div input::placeholder {
+	color: rgb(98, 98, 111);
+}
+
+.signup__signup {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 50px;
+}
+.signup__signup_button {
+	border: 1px transparent;
+	border-radius: 7px;
+	height: 45px;
+	width: 96%;
+	color: white;
+	background-color: rgb(35, 95, 227);
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.signup__signup_button:hover {
+	width: 90%;
+	height: 40px;
+	box-shadow: 0rem 0.3rem 0.3rem rgba(35, 95, 227, 0.5);
+}
+.signup__sign_in_link {
+	color: rgb(35, 95, 227);
+	margin-left: 2px;
+	text-decoration: none;
+}
+.signup__sign_in {
+	color: white;
+	margin-top: 40px;
+}
+.signup__error_label {
+	font-size: 12px;
+	color: red;
+}
+.signup__title_error {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.signup_form {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.signup_form_left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin: 10px;
+}
+.signup_form_right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin: 10px;
+}

@@ -1,0 +1,120 @@
+.login__container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(29, 32, 51);
+}
+.login__main_div {
+	background-color: rgb(29, 32, 51);
+	height: 650px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.login__logo {
+	margin: 10px;
+	margin-top: 30px;
+}
+.login__logo_img {
+	width: 350px;
+	height: 200px;
+}
+.login__title h2 {
+	color: white;
+	margin: 20px;
+}
+.login__username_or_email {
+	width: 100%;
+}
+.login__username_or_email h5 {
+	color: white;
+	margin: 3px;
+}
+.login__username_or_email input {
+	width: 96%;
+	background-color: rgb(20, 23, 36);
+	margin: 3px;
+	height: 45px;
+	color: white;
+	font-size: 16px;
+	border: rgb(98, 98, 111) solid 1px;
+	border-radius: 7px;
+	padding-inline-start: 6px;
+}
+.login__username_or_email input::placeholder {
+	color: rgb(98, 98, 111);
+}
+.login__password {
+	width: 100%;
+}
+.login__password h5 {
+	color: white;
+	margin: 3px;
+}
+.login__password input {
+	width: 96%;
+	background-color: rgb(20, 23, 36);
+	margin: 3px;
+	height: 45px;
+	color: white;
+	font-size: 16px;
+	border: rgb(98, 98, 111) solid 1px;
+	border-radius: 7px;
+	padding-inline-start: 6px;
+}
+.login__password input::placeholder {
+	color: rgb(98, 98, 111);
+}
+.login__remember_me {
+	color: white;
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.login__remember_me input {
+	margin: 10px;
+	width: 19px;
+	height: 19px;
+	margin-bottom: 20px;
+}
+.login__signin {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 50px;
+	align-items: center;
+}
+.login__signin_button {
+	border: 1px transparent;
+	border-radius: 7px;
+	height: 45px;
+	width: 96%;
+	color: white;
+	background-color: rgb(35, 95, 227);
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.login__signin_button:hover {
+	width: 90%;
+	height: 40px;
+	box-shadow: 0rem 0.3rem 0.3rem rgba(35, 95, 227, 0.5);
+}
+.login__sign_up_link {
+	color: rgb(35, 95, 227);
+	margin-left: 2px;
+	text-decoration: none;
+}
+.login__sign_up {
+	color: white;
+	margin-top: 20px;
+}
+.login__error_label {
+	color: red;
+}

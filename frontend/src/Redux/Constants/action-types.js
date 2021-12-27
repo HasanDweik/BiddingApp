@@ -1,0 +1,7 @@
+export const ActionTypes = {
+	LOGIN: 'LOGIN',
+	REGISTER: 'REGISTER',
+	LOGOUT: 'LOGOUT',
+	SET_BALANCE: 'SET_BALANCE',
+	SET_NAV: 'SET_NAV',
+};

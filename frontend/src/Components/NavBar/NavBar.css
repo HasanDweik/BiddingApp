@@ -1,0 +1,36 @@
+.navbar__container {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(51, 53, 60);
+	height: 100%;
+	width: 110px;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar__main {
+	width: 100%;
+}
+.navbar__topic h5 {
+	color: rgb(203, 218, 229);
+	cursor: pointer;
+}
+.navbar__topic {
+	width: 104px;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	border: 0;
+}
+.navbar__settings {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.checked_nav {
+	background-color: rgb(26, 29, 35);
+	border-right: 6px solid rgb(196, 247, 80);
+}

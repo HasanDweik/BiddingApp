@@ -1,0 +1,89 @@
+.store__container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.store__main_content {
+	height: 700px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(28, 31, 38);
+}
+.store__title {
+	color: white;
+	width: 600px;
+	margin-bottom: 50px;
+}
+.store__cardholder_name {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+.store__cardholder_name label {
+	margin-bottom: 5px;
+	color: white;
+}
+.store__cardholder_name_input {
+	height: 30px;
+	margin-bottom: 10px;
+}
+.store__card_number {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+.store__card_number label {
+	margin-bottom: 5px;
+	color: white;
+}
+.store__card_number_input {
+	height: 30px;
+	margin-bottom: 10px;
+}
+.store__date_cvv {
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	justify-content: space-between;
+}
+.store__date {
+	display: flex;
+	flex-direction: column;
+}
+.store__date label {
+	margin-bottom: 5px;
+	color: white;
+}
+.store__date_inputs {
+	display: flex;
+	flex-direction: row;
+}
+.store__date_input {
+	height: 30px;
+	width: 70px;
+	margin-right: 20px;
+}
+.store__cvv {
+	display: flex;
+	flex-direction: column;
+}
+.store__cvv label {
+	margin-bottom: 5px;
+	color: white;
+}
+.store__cvv_input {
+	height: 30px;
+	width: 70px;
+}
+.store__button {
+	width: 100px;
+	height: 40px;
+	margin-top: 30px;
+}
